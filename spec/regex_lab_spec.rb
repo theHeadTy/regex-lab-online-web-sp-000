@@ -9,7 +9,7 @@ describe "Working with Regular expressions" do
         expect(starts_with_a_vowel?(word)).to be(true)
       end
     end
-
+    
     it "returns false for words starting with a consonant" do
       do_not_match = %w{ chandoo Crenel crooked Flimsy folksy Dog Hermit
      makeshift Palazzi sixfold Truth }
